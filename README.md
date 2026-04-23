@@ -1,8 +1,10 @@
 <div align="center">
 
+<img src="docs/logo.png" alt="Slatewave" width="840" />
+
 # Slatewave (Windows Terminal)
 
-A Slatewave theme for [Windows Terminal](https://aka.ms/terminal) — slate foundation, teal signature. Designed as a twin to the [Slatewave VSCode theme](https://github.com/kevinlangleyjr/vscode-slatewave), [Ghostty theme](https://github.com/kevinlangleyjr/ghostty-slatewave), [iTerm2 preset](https://github.com/kevinlangleyjr/iterm2-slatewave), [Alacritty theme](https://github.com/kevinlangleyjr/alacritty-slatewave), [WezTerm theme](https://github.com/kevinlangleyjr/wezterm-slatewave), [Obsidian theme](https://github.com/kevinlangleyjr/obsidian-slatewave), and [oh-my-posh prompt](https://github.com/kevinlangleyjr/slatewave-omp) — editor, terminal, and notes share a single color vocabulary.
+A Slatewave theme for [Windows Terminal](https://aka.ms/terminal) — slate foundation, teal signature. Part of the [Slatewave family](#slatewave-family) — one palette across editors, terminals, prompts, notes, and more.
 
 > _Slate below, teal above._
 
@@ -164,18 +166,19 @@ To keep the Slatewave chrome but pair it with a different scheme (or vice versa)
 
 ---
 
-## Companion themes
+## Slatewave family
 
-Slatewave is one palette, many surfaces. Run them together and your editor, terminal, prompt, and notes all speak the same visual language.
+One palette. Every tool.
 
-- **Editor** — [vscode-slatewave](https://github.com/kevinlangleyjr/vscode-slatewave)
-- **Prompt** — [slatewave-omp](https://github.com/kevinlangleyjr/slatewave-omp)
-- **Notes** — [obsidian-slatewave](https://github.com/kevinlangleyjr/obsidian-slatewave)
-- **Terminal (Ghostty)** — [ghostty-slatewave](https://github.com/kevinlangleyjr/ghostty-slatewave)
-- **Terminal (iTerm2)** — [iterm2-slatewave](https://github.com/kevinlangleyjr/iterm2-slatewave)
-- **Terminal (Alacritty)** — [alacritty-slatewave](https://github.com/kevinlangleyjr/alacritty-slatewave)
-- **Terminal (WezTerm)** — [wezterm-slatewave](https://github.com/kevinlangleyjr/wezterm-slatewave)
-- **Terminal (Windows Terminal)** — this repo
+- **Editors** — [VSCode](https://github.com/kevinlangleyjr/vscode-slatewave) · [Neovim](https://github.com/kevinlangleyjr/neovim-slatewave) · [Helix](https://github.com/kevinlangleyjr/helix-slatewave) · [Zed](https://github.com/kevinlangleyjr/zed-slatewave) · [Sublime Text](https://github.com/kevinlangleyjr/sublime-text-slatewave) · [JetBrains](https://github.com/kevinlangleyjr/jetbrains-slatewave)
+- **Terminals** — [Alacritty](https://github.com/kevinlangleyjr/alacritty-slatewave) · [Ghostty](https://github.com/kevinlangleyjr/ghostty-slatewave) · [iTerm2](https://github.com/kevinlangleyjr/iterm2-slatewave) · [WezTerm](https://github.com/kevinlangleyjr/wezterm-slatewave)
+- **Prompts** — [Oh My Posh](https://github.com/kevinlangleyjr/slatewave-omp) · [Starship](https://github.com/kevinlangleyjr/starship-slatewave)
+- **Multiplexer** — [tmux](https://github.com/kevinlangleyjr/tmux-slatewave)
+- **Notes** — [Obsidian](https://github.com/kevinlangleyjr/obsidian-slatewave) · [Logseq](https://github.com/kevinlangleyjr/logseq-slatewave)
+- **Launchers** — [Alfred](https://github.com/kevinlangleyjr/alfred-slatewave) · [Raycast](https://github.com/kevinlangleyjr/raycast-slatewave)
+- **Chat** — [Slack](https://github.com/kevinlangleyjr/slack-slatewave)
+
+See [getslatewave.com](https://getslatewave.com) for the full family.
 
 ---
 
