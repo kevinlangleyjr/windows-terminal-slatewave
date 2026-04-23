@@ -1,0 +1,72 @@
+// Slatewave — Windows Terminal full bundle
+// https://getslatewave.com
+//
+// Color scheme + window chrome theme. Merge the `schemes` entry into your
+// existing `schemes` array and the `themes` entry into your `themes` array in
+// %LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+// (or open Settings → "Open JSON file" from the dropdown).
+//
+// Then reference them from the top level of settings.json:
+//
+//   "theme": "Slatewave",
+//   "profiles": {
+//     "defaults": { "colorScheme": "Slatewave" }
+//   }
+
+{
+    "schemes": [
+        {
+            "name": "Slatewave",
+
+            "background": "#282c34",
+            "foreground": "#e2e8f0",
+
+            "cursorColor": "#5eead4",
+            "selectionBackground": "#334155",
+
+            "black":   "#1e293b",
+            "red":     "#fb7185",
+            "green":   "#5eead4",
+            "yellow":  "#b45309",
+            "blue":    "#38bdf8",
+            "purple":  "#b388ff",
+            "cyan":    "#0e7490",
+            "white":   "#e2e8f0",
+
+            "brightBlack":  "#475569",
+            "brightRed":    "#ef5350",
+            "brightGreen":  "#99f6e4",
+            "brightYellow": "#fbbf24",
+            "brightBlue":   "#7dd3fc",
+            "brightPurple": "#c4b5fd",
+            "brightCyan":   "#67e8f9",
+            "brightWhite":  "#f1f5f9"
+        }
+    ],
+
+    "themes": [
+        {
+            "name": "Slatewave",
+
+            // Tabs inherit the terminal background when focused (slate editor),
+            // fall back to slate chrome when not — mirrors the VSCode activity bar.
+            "tab": {
+                "background": "terminalBackground",
+                "unfocusedBackground": "#21252b",
+                "showCloseButton": "always"
+            },
+
+            // Tab strip uses slate chrome for the active strip, slate-800 when
+            // the window is unfocused — matches the wezterm tab bar split.
+            "tabRow": {
+                "background": "#21252b",
+                "unfocusedBackground": "#1e293b"
+            },
+
+            "window": {
+                "applicationTheme": "dark",
+                "useMica": false
+            }
+        }
+    ]
+}

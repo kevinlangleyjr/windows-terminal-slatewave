@@ -1,0 +1,27 @@
+{
+    "name": "Slatewave",
+
+    "background": "#282c34",
+    "foreground": "#e2e8f0",
+
+    "cursorColor": "#5eead4",
+    "selectionBackground": "#334155",
+
+    "black":   "#1e293b",
+    "red":     "#fb7185",
+    "green":   "#5eead4",
+    "yellow":  "#b45309",
+    "blue":    "#38bdf8",
+    "purple":  "#b388ff",
+    "cyan":    "#0e7490",
+    "white":   "#e2e8f0",
+
+    "brightBlack":  "#475569",
+    "brightRed":    "#ef5350",
+    "brightGreen":  "#99f6e4",
+    "brightYellow": "#fbbf24",
+    "brightBlue":   "#7dd3fc",
+    "brightPurple": "#c4b5fd",
+    "brightCyan":   "#67e8f9",
+    "brightWhite":  "#f1f5f9"
+}
